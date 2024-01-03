@@ -23,8 +23,8 @@ class InfixApi {
   static String service = baseApi + 'service/check';
   static String zoomMakeMeetingUrl = "zoom-meeting-room";
 
-  static String login(String email, String password) {
-    return baseApi + 'login?email=' + email + '&password=' + password;
+  static String login() {
+    return baseApi + 'login';
   }
 
   static String getFeesUrl(dynamic id) {

@@ -103,10 +103,10 @@ class AppFunction {
     'Leave',
     'Notice',
     'Subjects',
-    'Teacher',
-    'Library',
-    'Transport',
-    'Dormitory',
+    'Trainer',
+    // 'Library',
+    // 'Transport',
+    // 'Dormitory',
     'Class',
     'Settings',
   ];
@@ -137,7 +137,7 @@ class AppFunction {
     'Leave',
     'Content',
     'Notice',
-    'Library',
+    // 'Library',
     'Homework',
     'About',
     'Class',
@@ -162,13 +162,13 @@ class AppFunction {
     'Students',
     'Leave',
     'Staff',
-    'Dormitory',
+    // 'Dormitory',
     'Attendance',
     'Fees',
     'Content',
     'Notice',
-    'Library',
-    'Transport',
+    // 'Library',
+    // 'Transport',
     'Class',
     'Settings',
   ];
@@ -504,7 +504,7 @@ class AppFunction {
           ),
         );
         break;
-      case 'Teacher':
+      case 'Trainer':
         Navigator.push(
           context,
           ScaleRoute(

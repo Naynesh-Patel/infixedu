@@ -6,6 +6,7 @@ import 'package:get/get.dart';
 // Project imports:
 import 'package:infixedu/config/app_config.dart';
 import 'package:infixedu/controller/system_controller.dart';
+import 'package:infixedu/screens/Home.dart';
 import 'package:infixedu/screens/Login.dart';
 import 'package:infixedu/utils/FunctinsData.dart';
 import 'package:infixedu/utils/Utils.dart';
@@ -45,7 +46,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
           });
         } else {
           if (mounted) {
-            route = MaterialPageRoute(builder: (context) => const LoginScreen());
+            route = MaterialPageRoute(builder: (context) => LoginScreen());
             Navigator.pushReplacement(context, route);
           }
         }

@@ -37,7 +37,10 @@ class Login {
     try {
       DIO.Dio dio = DIO.Dio();
       DIO.Response response =
-          await dio.get(InfixApi.login(email, password)).catchError((e) {
+          await dio.post(InfixApi.login(),data: {
+            'email':email,
+            'password':password
+          }).catchError((e) {
         message = DioExceptions.fromDioError(e).toString();
       });
       if (response.statusCode == 200) {

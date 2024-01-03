@@ -68,7 +68,7 @@ class _StudentFeesNewState extends State<StudentFeesNew> {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 0.0),
                     child: Text(
-                      "Fees".tr,
+                      "Donations".tr,
                       style: Theme.of(context)
                           .textTheme
                           .titleMedium
@@ -129,7 +129,7 @@ class _StudentFeesNewState extends State<StudentFeesNew> {
                       );
                     } else {
                       if (_studentFeesController
-                              .feesRecordList.value.feesRecords!.isEmpty) {
+                              .feesRecordList.value.feesRecords==null) {
                         return Utils.noDataWidget();
                       } else {
                         return ListView.separated(

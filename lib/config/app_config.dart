@@ -3,7 +3,8 @@ class AppConfig {
   /// To test the app
   /// Please use this base url : https://spn11.freeschoolsoftware.in/infixedu_v8
 
-  static String domainName = 'https://spn11.freeschoolsoftware.in/infixedu_v8'; //** Replace with your domain name
+  // static String domainName = 'https://spn11.freeschoolsoftware.in/infixedu_v8'; //** Replace with your domain name
+  static String domainName = 'https://saksham.qmtiindia.org'; //** Replace with your domain name
 
   static String appName = "InfixEdu";
 

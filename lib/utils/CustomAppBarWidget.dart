@@ -628,7 +628,11 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
   Future<String> getImageUrl(String email, String password, String rule) async {
     var image = 'http://saskolhmg.com/images/studentprofile.png';
 
-    var response = await http.get(Uri.parse(InfixApi.login(email, password)),
+    var response = await http.post(Uri.parse(InfixApi.login()),
+        body: {
+          'email':email,
+          'password':password
+        },
         headers: Utils.setHeader(_token.toString()));
 
     if (response.statusCode == 200) {

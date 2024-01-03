@@ -68,7 +68,7 @@ class _StudentTeacherState extends State<StudentTeacher>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBarWidget(title: 'Teacher'),
+      appBar: CustomAppBarWidget(title: 'Trainer'),
       backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),

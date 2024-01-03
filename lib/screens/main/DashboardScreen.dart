@@ -318,7 +318,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             height: 25.h,
                             color: Colors.white,
                           ),
-                    title: widget.role == "4" ? "Attendance".tr : "Fees".tr,
+                    title: widget.role == "4" ? "Attendance".tr : "Donations".tr,
                     activeColorPrimary: Colors.deepPurple.withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),
