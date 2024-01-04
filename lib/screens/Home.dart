@@ -303,11 +303,11 @@ class _HomeState extends State<Home> {
             height: 110.h,
             padding: EdgeInsets.only(top: 20.h),
             decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(AppConfig.appToolbarBackground),
-                fit: BoxFit.fill,
-              ),
-              color: Colors.deepPurple,
+              // image: DecorationImage(
+              //   image: AssetImage(AppConfig.appToolbarBackground),
+              //   fit: BoxFit.fill,
+              // ),
+              color: Colors.white,
             ),
             child: Row(
               children: [
@@ -315,34 +315,50 @@ class _HomeState extends State<Home> {
                   child: Container(
                     width: 200.h,
                     padding: const EdgeInsets.symmetric(horizontal: 15),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       children: [
-                        const SizedBox(
-                          height: 10,
-                        ),
+                        // const SizedBox(
+                        //   width: 10,
+                        // ),
                         Flexible(
                           child: Image.asset(
                             AppConfig.appLogo,
-                            height: 30,
+                            height: 50,
+
                           ),
                         ),
                         const SizedBox(
-                          height: 10,
+                          width: 10,
                         ),
-                        Text(
-                          "Welcome".tr + " $_fullName",
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleMedium
-                              ?.copyWith(color: Colors.white, fontSize: 15),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "Welcome".tr,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(color: const Color(0xff261C59), fontSize: 15),
+                            ),
+                            Text(
+                              "$_fullName",
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(color: const Color(0xff261C59), fontSize: 15),
+                            ),
+                          ],
                         ),
                         const SizedBox(
-                          height: 10,
+                          width: 10,
                         ),
                       ],
                     ),
@@ -355,6 +371,7 @@ class _HomeState extends State<Home> {
                   icon: Icon(
                     FontAwesomeIcons.facebookMessenger,
                     size: 25.sp,
+                    color: Color(0xff261C59),
                   ),
                 ),
                 IconButton(
@@ -364,6 +381,7 @@ class _HomeState extends State<Home> {
                   icon: Icon(
                     Icons.exit_to_app,
                     size: 25.sp,
+                    color: Color(0xff261C59),
                   ),
                 ),
               ],

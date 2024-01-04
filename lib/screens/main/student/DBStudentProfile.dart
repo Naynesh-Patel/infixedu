@@ -63,9 +63,9 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
     Tab(
       text: 'Parents'.tr,
     ),
-    Tab(
-      text: 'Transport'.tr,
-    ),
+    // Tab(
+    //   text: 'Transport'.tr,
+    // ),
     Tab(
       text: 'Others'.tr,
     ),
@@ -314,7 +314,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                                         children: [
                                           getProfileList(),
                                           getParentDetails(),
-                                          getTransportList(),
+                                          // getTransportList(),
                                           getOthersList(),
                                           getDocumentsList(),
                                           // getParentDetails(),
