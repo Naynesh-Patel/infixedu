@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/controller/settings_controller.dart';
-import 'package:infixedu/language/language_selection.dart';
-import 'package:infixedu/language/translation.dart';
+import 'package:Saksham/controller/settings_controller.dart';
+import 'package:Saksham/language/language_selection.dart';
+import 'package:Saksham/language/translation.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/widget/Line.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/widget/Line.dart';
+import 'package:Saksham/utils/widget/ScaleRoute.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../main.dart';
 import '../utils/widget/account_delete_dialogue.dart';

@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
+import 'package:Saksham/config/app_config.dart';
 
-import 'package:infixedu/screens/chat/views/FilePreview/ImagePreview.dart';
-import 'package:infixedu/screens/chat/views/FilePreview/NetworkVideoPlayer.dart';
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:Saksham/screens/chat/views/FilePreview/ImagePreview.dart';
+import 'package:Saksham/screens/chat/views/FilePreview/NetworkVideoPlayer.dart';
+import 'package:Saksham/screens/student/studyMaterials/StudyMaterialViewer.dart';
 
-import 'package:infixedu/screens/chat/models/GroupThread.dart';
+import 'package:Saksham/screens/chat/models/GroupThread.dart';
 
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:url_launcher/url_launcher.dart';

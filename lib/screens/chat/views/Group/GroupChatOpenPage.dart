@@ -9,22 +9,22 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:html_editor_enhanced/html_editor.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/screens/chat/controller/chat_group_open_controller.dart';
-import 'package:infixedu/screens/chat/controller/pusher_controller.dart';
-import 'package:infixedu/screens/chat/views/Group/ChatGroupLoadMore.dart';
-import 'package:infixedu/screens/chat/views/FilePreview/ChatFilesPage.dart';
-import 'package:infixedu/screens/chat/views/Group/GroupMessageWidget.dart';
-import 'package:infixedu/utils/CustomSnackBars.dart';
-import 'package:infixedu/utils/LoadMoreIndicator.dart';
-import 'package:infixedu/utils/MediaUtils.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/screens/chat/controller/chat_controller.dart';
+import 'package:Saksham/screens/chat/controller/chat_group_open_controller.dart';
+import 'package:Saksham/screens/chat/controller/pusher_controller.dart';
+import 'package:Saksham/screens/chat/views/Group/ChatGroupLoadMore.dart';
+import 'package:Saksham/screens/chat/views/FilePreview/ChatFilesPage.dart';
+import 'package:Saksham/screens/chat/views/Group/GroupMessageWidget.dart';
+import 'package:Saksham/utils/CustomSnackBars.dart';
+import 'package:Saksham/utils/LoadMoreIndicator.dart';
+import 'package:Saksham/utils/MediaUtils.dart';
+import 'package:Saksham/utils/Utils.dart';
 
-import 'package:infixedu/screens/chat/models/ChatGroup.dart';
+import 'package:Saksham/screens/chat/models/ChatGroup.dart';
 
-import 'package:infixedu/screens/chat/models/GroupThread.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
+import 'package:Saksham/screens/chat/models/GroupThread.dart';
+import 'package:Saksham/screens/chat/models/ChatUser.dart';
 
 import 'package:loading_more_list/loading_more_list.dart';
 

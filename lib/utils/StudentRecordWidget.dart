@@ -1,5 +1,6 @@
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/utils/model/StudentRecord.dart';
+
+import 'package:Saksham/controller/user_controller.dart';
+import 'package:Saksham/utils/model/StudentRecord.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

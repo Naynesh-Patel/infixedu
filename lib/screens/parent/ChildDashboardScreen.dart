@@ -6,11 +6,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
+import 'package:Saksham/config/app_config.dart';
 
-import 'package:infixedu/utils/CardItem.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/server/LogoutService.dart';
+import 'package:Saksham/utils/CardItem.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/server/LogoutService.dart';
 
 import '../../controller/system_controller.dart';
 

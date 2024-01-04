@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/widget/snack_bars.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/widget/snack_bars.dart';
 
 import '../../controller/exceptions/conflict_exception.dart';
 import '../../controller/exceptions/default.exception.dart';

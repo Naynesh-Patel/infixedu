@@ -11,11 +11,11 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/ExamRoutineReport.dart';
-import 'package:infixedu/utils/model/ExamSchedule.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/ExamRoutineReport.dart';
+import 'package:Saksham/utils/model/ExamSchedule.dart';
 import 'package:intl/intl.dart';
 
 // ignore: must_be_immutable

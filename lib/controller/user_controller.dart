@@ -1,10 +1,12 @@
 import 'dart:developer';
 
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/StudentRecord.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/utils/Utils.dart';
+
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/StudentRecord.dart';
+
 
 class UserController extends GetxController {
   final Rx<int> _studentId = 0.obs;

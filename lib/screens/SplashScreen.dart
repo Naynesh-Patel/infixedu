@@ -4,12 +4,12 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/controller/system_controller.dart';
-import 'package:infixedu/screens/Home.dart';
-import 'package:infixedu/screens/Login.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/controller/system_controller.dart';
+import 'package:Saksham/screens/Home.dart';
+import 'package:Saksham/screens/Login.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/Utils.dart';
 // Package imports:
 import 'package:shared_preferences/shared_preferences.dart';
 

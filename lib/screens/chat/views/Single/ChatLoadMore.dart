@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart' as GETx;
-import 'package:infixedu/screens/chat/controller/chat_open_controller.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/chat/models/ChatMessage.dart';
-import 'package:infixedu/screens/chat/models/ChatMessageOpenModel.dart';
+import 'package:Saksham/screens/chat/controller/chat_open_controller.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/screens/chat/models/ChatMessage.dart';
+import 'package:Saksham/screens/chat/models/ChatMessageOpenModel.dart';
 import 'package:loading_more_list/loading_more_list.dart';
 
 import '../../controller/chat_controller.dart';

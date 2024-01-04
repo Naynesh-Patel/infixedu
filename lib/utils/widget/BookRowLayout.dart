@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 // Project imports:
-import 'package:infixedu/utils/model/Book.dart';
+import 'package:Saksham/utils/model/Book.dart';
 
 // ignore: must_be_immutable
 class BookListRow extends StatefulWidget {

@@ -10,10 +10,10 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/fees/controller/student_fees_controller.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/screens/fees/paymentGateway/khalti/sdk/khalti.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/screens/fees/controller/student_fees_controller.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/screens/fees/paymentGateway/khalti/sdk/khalti.dart';
 
 import '../khalti/core/khalti_core.dart';
 

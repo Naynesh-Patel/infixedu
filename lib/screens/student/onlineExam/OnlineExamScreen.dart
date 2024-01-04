@@ -1,12 +1,12 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/controller/system_controller.dart';
+import 'package:Saksham/controller/system_controller.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CardItem.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
+import 'package:Saksham/utils/CardItem.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
 
 // ignore: must_be_immutable
 class OnlineExaminationHome extends StatefulWidget {

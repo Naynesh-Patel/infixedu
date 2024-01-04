@@ -6,16 +6,16 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/utils/StudentRecordWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/screens/fees/model/Fee.dart';
-import 'package:infixedu/screens/fees/services/FeesService.dart';
-import 'package:infixedu/utils/model/StudentRecord.dart';
-import 'package:infixedu/utils/server/LogoutService.dart';
-import 'package:infixedu/screens/fees/widgets/Fees_row_layout.dart';
-import 'package:infixedu/utils/widget/ShimmerListWidget.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/controller/user_controller.dart';
+import 'package:Saksham/utils/StudentRecordWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/screens/fees/model/Fee.dart';
+import 'package:Saksham/screens/fees/services/FeesService.dart';
+import 'package:Saksham/utils/model/StudentRecord.dart';
+import 'package:Saksham/utils/server/LogoutService.dart';
+import 'package:Saksham/screens/fees/widgets/Fees_row_layout.dart';
+import 'package:Saksham/utils/widget/ShimmerListWidget.dart';
 
 class StudentFeesOld extends StatefulWidget {
   final String? id;

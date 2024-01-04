@@ -10,13 +10,13 @@ import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/Staff.dart';
-import 'package:infixedu/utils/model/Vehicle.dart';
-import 'package:infixedu/utils/widget/Line.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/exception/DioException.dart';
+import 'package:Saksham/utils/model/Staff.dart';
+import 'package:Saksham/utils/model/Vehicle.dart';
+import 'package:Saksham/utils/widget/Line.dart';
 
 class AddVehicle extends StatefulWidget {
   const AddVehicle({Key? key}) : super(key: key);

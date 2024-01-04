@@ -9,12 +9,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/student/SubjectStudentAttendance.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Subject.dart';
+import 'package:Saksham/controller/user_controller.dart';
+import 'package:Saksham/screens/student/SubjectStudentAttendance.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/Subject.dart';
 
 // Project imports:
 import '../../../utils/model/StudentAttendance.dart';

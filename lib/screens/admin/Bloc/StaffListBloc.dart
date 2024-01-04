@@ -2,8 +2,10 @@
 import 'package:rxdart/rxdart.dart';
 
 // Project imports:
-import 'package:infixedu/screens/admin/Repository/StaffRepository.dart';
-import 'package:infixedu/utils/model/Staff.dart';
+
+
+import '../../../utils/model/Staff.dart';
+import '../Repository/StaffRepository.dart';
 
 class StaffListBloc {
   dynamic id;

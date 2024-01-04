@@ -14,14 +14,14 @@ import 'package:open_filex/open_filex.dart';
 import 'package:path_provider/path_provider.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/homework/UploadHomework.dart';
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/StudentHomework.dart';
-import 'package:infixedu/utils/permission_check.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:Saksham/screens/student/homework/UploadHomework.dart';
+import 'package:Saksham/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/StudentHomework.dart';
+import 'package:Saksham/utils/permission_check.dart';
+import 'package:Saksham/utils/widget/ScaleRoute.dart';
 import 'package:get/get.dart';
 
 // ignore: must_be_immutable

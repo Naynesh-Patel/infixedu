@@ -1,7 +1,7 @@
-import 'package:infixedu/screens/chat/models/ChatGroup.dart';
-import 'package:infixedu/screens/chat/models/ChatMessage.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
-import 'package:infixedu/screens/chat/models/GroupThread.dart';
+import 'package:Saksham/screens/chat/models/ChatGroup.dart';
+import 'package:Saksham/screens/chat/models/ChatMessage.dart';
+import 'package:Saksham/screens/chat/models/ChatUser.dart';
+import 'package:Saksham/screens/chat/models/GroupThread.dart';
 
 class ChatGroupPusher {
     ChatGroupPusher({

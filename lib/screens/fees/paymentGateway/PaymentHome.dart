@@ -3,13 +3,13 @@
 //
 //
 // // Project imports:
-// import 'package:infixedu/paymentGateway/paypal/PaypalHomeScreen.dart';
-// import 'package:infixedu/paymentGateway/paytm/PaytmHomeScreen.dart';
-// import 'package:infixedu/utils/CustomAppBarWidget.dart';
-// import 'package:infixedu/utils/Utils.dart';
-// import 'package:infixedu/utils/model/Fee.dart';
-// import 'package:infixedu/utils/widget/ScaleRoute.dart';
-// import 'package:infixedu/utils/widget/fees_payment_row_widget.dart';
+// import 'package:Saksham/paymentGateway/paypal/PaypalHomeScreen.dart';
+// import 'package:Saksham/paymentGateway/paytm/PaytmHomeScreen.dart';
+// import 'package:Saksham/utils/CustomAppBarWidget.dart';
+// import 'package:Saksham/utils/Utils.dart';
+// import 'package:Saksham/utils/model/Fee.dart';
+// import 'package:Saksham/utils/widget/ScaleRoute.dart';
+// import 'package:Saksham/utils/widget/fees_payment_row_widget.dart';
 // import 'GooglePayScreen.dart';
 // import 'RazorPay/RazorPayHome.dart';
 //

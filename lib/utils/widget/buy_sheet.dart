@@ -12,11 +12,11 @@
 // import 'package:uuid/uuid.dart';
 //
 // // Project imports:
-// import 'package:infixedu/paymentGateway/transaction_service.dart';
-// import 'package:infixedu/utils/CustomAppBarWidget.dart';
-// import 'package:infixedu/utils/Utils.dart';
-// import 'package:infixedu/utils/apis/Config.dart';
-// import 'package:infixedu/utils/model/Fee.dart';
+// import 'package:Saksham/paymentGateway/transaction_service.dart';
+// import 'package:Saksham/utils/CustomAppBarWidget.dart';
+// import 'package:Saksham/utils/Utils.dart';
+// import 'package:Saksham/utils/apis/Config.dart';
+// import 'package:Saksham/utils/model/Fee.dart';
 // import 'ScaleRoute.dart';
 // import 'dialog_modal.dart';
 // import 'fees_payment_row_widget.dart';

@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:infixedu/utils/model/TeacherSubject.dart';
+import 'package:Saksham/utils/model/TeacherSubject.dart';
 
 // ignore: must_be_immutable
 class TeacherSubjectRowLayout extends StatelessWidget {

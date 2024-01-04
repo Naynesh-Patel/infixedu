@@ -2,11 +2,11 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:get/get.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/student/onlineExam/module/model/ActiveOnlineModel.dart';
+import 'package:Saksham/controller/user_controller.dart';
+import 'package:Saksham/screens/student/onlineExam/module/model/ActiveOnlineModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
 
 import '../../../../../utils/model/StudentRecord.dart';
 

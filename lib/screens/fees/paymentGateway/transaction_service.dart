@@ -11,10 +11,10 @@
 // import 'package:square_in_app_payments/models.dart';
 //
 // // Project imports:
-// import 'package:infixedu/paymentGateway/paytm/PaymentStatusScreen.dart';
-// import 'package:infixedu/utils/apis/Apis.dart';
-// import 'package:infixedu/utils/model/Fee.dart';
-// import 'package:infixedu/utils/widget/ScaleRoute.dart';
+// import 'package:Saksham/paymentGateway/paytm/PaymentStatusScreen.dart';
+// import 'package:Saksham/utils/apis/Apis.dart';
+// import 'package:Saksham/utils/model/Fee.dart';
+// import 'package:Saksham/utils/widget/ScaleRoute.dart';
 //
 // // Replace this with the server host you create, if you have your own server running
 // // e.g. https://server-host.com

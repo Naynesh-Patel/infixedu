@@ -4,10 +4,10 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/utils/CustomSnackBars.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/fees/model/FeesAdminAddPaymentModel.dart';
+import 'package:Saksham/utils/CustomSnackBars.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/screens/fees/model/FeesAdminAddPaymentModel.dart';
 import 'package:http/http.dart' as http;
 import 'package:dio/dio.dart' as dio;
 

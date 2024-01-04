@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:infixedu/screens/chat/models/ChatActiveStatus.dart';
-import 'package:infixedu/screens/chat/models/ChatRoles.dart';
+import 'package:Saksham/screens/chat/models/ChatActiveStatus.dart';
+import 'package:Saksham/screens/chat/models/ChatRoles.dart';
 
 class ChatUser {
   ChatUser({

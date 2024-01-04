@@ -15,24 +15,24 @@ import 'package:get/get.dart' as GETx;
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/fees/paymentGateway/RazorPay/razorpay_service.dart';
-import 'package:infixedu/screens/fees/paymentGateway/paypal/paypal_payment.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/Bank.dart';
-import 'package:infixedu/screens/fees/model/Fee.dart';
-import 'package:infixedu/utils/model/PaymentMethod.dart';
-import 'package:infixedu/utils/model/UserDetails.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
-import 'package:infixedu/screens/fees/widgets/fees_payment_row_widget.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/controller/user_controller.dart';
+import 'package:Saksham/screens/fees/paymentGateway/RazorPay/razorpay_service.dart';
+import 'package:Saksham/screens/fees/paymentGateway/paypal/paypal_payment.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/exception/DioException.dart';
+import 'package:Saksham/utils/model/Bank.dart';
+import 'package:Saksham/screens/fees/model/Fee.dart';
+import 'package:Saksham/utils/model/PaymentMethod.dart';
+import 'package:Saksham/utils/model/UserDetails.dart';
+import 'package:Saksham/utils/widget/ScaleRoute.dart';
+import 'package:Saksham/screens/fees/widgets/fees_payment_row_widget.dart';
 import 'khalti/KhaltiPaymentScreen.dart';
 import 'xendit/XenditScreen.dart';
 
-import 'package:infixedu/screens/fees/paymentGateway/stripe/stripe_payment.dart'
+import 'package:Saksham/screens/fees/paymentGateway/stripe/stripe_payment.dart'
     as StripePage;
 // import 'package:flutter_stripe/flutter_stripe.dart' as FlutterStripe;
 

@@ -6,11 +6,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widget_from_html_core/flutter_widget_from_html_core.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/controller/user_controller.dart';
-import 'package:infixedu/screens/student/onlineExam/module/controller/OnlineExamController.dart';
-import 'package:infixedu/screens/student/onlineExam/module/model/TakeExamModel.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/controller/user_controller.dart';
+import 'package:Saksham/screens/student/onlineExam/module/controller/OnlineExamController.dart';
+import 'package:Saksham/screens/student/onlineExam/module/model/TakeExamModel.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
 import 'package:photo_view/photo_view.dart';
 import 'package:reorderables/reorderables.dart';
 

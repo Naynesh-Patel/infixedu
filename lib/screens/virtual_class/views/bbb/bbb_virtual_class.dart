@@ -4,9 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/controller/system_controller.dart';
-import 'package:infixedu/utils/StudentRecordWidget.dart';
-import 'package:infixedu/utils/model/StudentRecord.dart';
+import 'package:Saksham/controller/system_controller.dart';
+import 'package:Saksham/utils/StudentRecordWidget.dart';
+import 'package:Saksham/utils/model/StudentRecord.dart';
 import 'package:intl/intl.dart';
 
 import '../../../../controller/user_controller.dart';

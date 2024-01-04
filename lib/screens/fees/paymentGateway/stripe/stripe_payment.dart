@@ -13,11 +13,11 @@ import 'package:stripe_sdk/stripe_sdk.dart';
 import 'package:stripe_sdk/stripe_sdk_ui.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/CustomSnackBars.dart';
-import 'package:infixedu/screens/fees/model/Fee.dart';
-import 'package:infixedu/utils/model/UserDetails.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/CustomSnackBars.dart';
+import 'package:Saksham/screens/fees/model/Fee.dart';
+import 'package:Saksham/utils/model/UserDetails.dart';
 
 class StripePaymentScreen extends StatefulWidget {
   final String? id;

@@ -7,10 +7,10 @@ import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Project imports:
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/zoom_meeting.dart';
-import 'package:infixedu/utils/permission_check.dart';
-import 'package:infixedu/webview/launch_webview.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/zoom_meeting.dart';
+import 'package:Saksham/utils/permission_check.dart';
+import 'package:Saksham/webview/launch_webview.dart';
 import 'ScaleRoute.dart';
 
 // ignore: must_be_immutable

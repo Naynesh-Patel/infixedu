@@ -2,6 +2,10 @@
 import 'dart:io';
 
 // Flutter imports:
+import 'package:Saksham/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
 import 'package:flutter/material.dart';
 
 // Package imports:
@@ -11,12 +15,10 @@ import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 import 'package:open_filex/open_filex.dart';
 import 'package:path_provider/path_provider.dart';
 
+import 'widget/ScaleRoute.dart';
+
 // Project imports:
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+
 
 class DownloadDialog extends StatefulWidget {
   const DownloadDialog({Key? key, this.file, this.title}) : super(key: key);
