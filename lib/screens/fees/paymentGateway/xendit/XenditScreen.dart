@@ -11,14 +11,14 @@ import 'package:http/http.dart' as http;
 import 'package:http_auth/http_auth.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/fees/paymentGateway/xendit/XenditPaymentScreen.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/fees/model/Fee.dart';
-import 'package:infixedu/utils/model/UserDetails.dart';
-import 'package:infixedu/utils/model/XenditErrorResponse.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/screens/fees/paymentGateway/xendit/XenditPaymentScreen.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/screens/fees/model/Fee.dart';
+import 'package:Saksham/utils/model/UserDetails.dart';
+import 'package:Saksham/utils/model/XenditErrorResponse.dart';
 
 class XenditScreen extends StatefulWidget {
   final String? id;

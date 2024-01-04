@@ -3,14 +3,15 @@ import 'dart:async';
 import 'dart:convert';
 
 // Package imports:
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/InfixMap.dart';
 import 'package:age/age.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 
 // Project imports:
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/InfixMap.dart';
+
 
 class ProfileService {
   String? email;

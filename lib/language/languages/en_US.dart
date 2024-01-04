@@ -1,7 +1,7 @@
 // ignore: constant_identifier_names
 const Map<String, String> en_US = {
   "Welcome to": "Welcome to",
-  "InfixEdu": "InfixEdu",
+  "Saksham": "Saksham",
   "Students": "Students",
   "Leave": "Leave",
   "Staff": "Staff",

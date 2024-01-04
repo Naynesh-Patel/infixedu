@@ -4,12 +4,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/screens/wallet/student/controller/student_wallet_controller.dart';
-import 'package:infixedu/screens/wallet/student/model/Wallet.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/CustomBottomSheet.dart';
-import 'package:infixedu/utils/CustomSnackBars.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:Saksham/screens/wallet/student/controller/student_wallet_controller.dart';
+import 'package:Saksham/screens/wallet/student/model/Wallet.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/CustomBottomSheet.dart';
+import 'package:Saksham/utils/CustomSnackBars.dart';
+import 'package:Saksham/utils/Utils.dart';
 import 'package:intl/intl.dart';
 
 class StudentWalletTransactions extends StatefulWidget {

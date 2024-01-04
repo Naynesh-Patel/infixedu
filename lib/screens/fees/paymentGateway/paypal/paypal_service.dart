@@ -8,8 +8,8 @@ import 'package:http/http.dart' as http;
 import 'package:http_auth/http_auth.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/utils/model/PaypalResponse.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/utils/model/PaypalResponse.dart';
 
 class PaypalServices {
   String domain = paypalDomain;

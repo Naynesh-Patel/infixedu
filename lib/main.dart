@@ -1,9 +1,10 @@
 import 'dart:io';
+import 'package:Saksham/config/app_config.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:infixedu/config/app_config.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 import 'screens/fees/paymentGateway/khalti/sdk/khalti.dart';
 import 'utils/widget/page.dart';
@@ -28,7 +29,7 @@ void main() async {
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(
     statusBarColor:
-        const Color(0xff280073), //or set color with: Color(0xFF0000FF)
+        const Color(0xff261C59), //or set color with: Color(0xFF0000FF)
   ));
   HttpOverrides.global = MyHttpOverrides();
   final sharedPref = await SharedPreferences.getInstance();

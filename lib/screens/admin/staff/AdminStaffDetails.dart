@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Staff.dart';
-import 'package:infixedu/utils/widget/Line.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/Staff.dart';
+import 'package:Saksham/utils/widget/Line.dart';
 
 // ignore: must_be_immutable
 class StaffDetailsScreen extends StatefulWidget {

@@ -15,13 +15,13 @@ import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/utils/model/LeaveType.dart';
-import 'package:infixedu/utils/permission_check.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/exception/DioException.dart';
+import 'package:Saksham/utils/model/LeaveType.dart';
+import 'package:Saksham/utils/permission_check.dart';
+import 'package:Saksham/utils/widget/ScaleRoute.dart';
 import 'LeaveListScreen.dart';
 
 class ApplyLeaveScreen extends StatefulWidget {

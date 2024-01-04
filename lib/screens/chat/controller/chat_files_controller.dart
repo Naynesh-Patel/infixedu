@@ -2,10 +2,10 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/screens/chat/models/ChatFilesModel.dart';
+import 'package:Saksham/screens/chat/models/ChatFilesModel.dart';
 
 class ChatFilesController extends GetxController {
   final String chatId;

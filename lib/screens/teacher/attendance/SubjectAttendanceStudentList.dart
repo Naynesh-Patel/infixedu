@@ -12,13 +12,13 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/GlobalClass.dart';
-import 'package:infixedu/utils/model/Student.dart';
-import 'package:infixedu/utils/widget/ShimmerListWidget.dart';
-import 'package:infixedu/utils/widget/SubjectStudentAttendanceRow.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/GlobalClass.dart';
+import 'package:Saksham/utils/model/Student.dart';
+import 'package:Saksham/utils/widget/ShimmerListWidget.dart';
+import 'package:Saksham/utils/widget/SubjectStudentAttendanceRow.dart';
 
 import '../../../utils/model/SubjectAttendance.dart';
 import 'subject_attendance_controller.dart';

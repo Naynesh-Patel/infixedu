@@ -2,6 +2,12 @@
 import 'dart:convert';
 
 // Flutter imports:
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/main.dart';
+import 'package:Saksham/screens/ChangePassword.dart';
+import 'package:Saksham/screens/student/Profile.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -11,18 +17,14 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/server/LogoutService.dart';
+
 import 'package:timeago/timeago.dart' as timeago;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/main.dart';
-import 'package:infixedu/screens/ChangePassword.dart';
-import 'package:infixedu/screens/student/Profile.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/UserNotifications.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+
+import 'model/UserNotifications.dart';
+import 'server/LogoutService.dart';
+import 'widget/ScaleRoute.dart';
 
 // ignore: must_be_immutable
 class CustomAppBarWidget extends StatefulWidget implements PreferredSizeWidget {

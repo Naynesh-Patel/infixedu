@@ -4,14 +4,14 @@ import 'package:fancy_shimmer_image/fancy_shimmer_image.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/exception/DioException.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
-import 'package:infixedu/utils/permission_check.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/screens/chat/controller/chat_controller.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/exception/DioException.dart';
+import 'package:Saksham/screens/chat/models/ChatUser.dart';
+import 'package:Saksham/utils/permission_check.dart';
 import 'package:dio/dio.dart' as DIO;
 
 class CreateGroupPage extends StatefulWidget {

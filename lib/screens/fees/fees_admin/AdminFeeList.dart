@@ -8,11 +8,11 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/AdminFees.dart';
-import 'package:infixedu/utils/widget/Admin_Fees_List_Row.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/AdminFees.dart';
+import 'package:Saksham/utils/widget/Admin_Fees_List_Row.dart';
 
 class AdminFeeListView extends StatefulWidget {
   const AdminFeeListView({Key? key}) : super(key: key);

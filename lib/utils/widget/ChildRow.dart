@@ -1,13 +1,13 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
+import 'package:Saksham/config/app_config.dart';
 
 // Project imports:
-import 'package:infixedu/screens/main/DashboardScreen.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Child.dart';
+import 'package:Saksham/screens/main/DashboardScreen.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/Child.dart';
 
 // ignore: must_be_immutable
 class ChildRow extends StatefulWidget {

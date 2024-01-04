@@ -1,12 +1,12 @@
 // Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:infixedu/config/app_config.dart';
+import 'package:Saksham/config/app_config.dart';
 
 // Project imports:
-import 'package:infixedu/screens/student/Profile.dart';
-import 'package:infixedu/screens/student/StudentAttendance.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Student.dart';
+import 'package:Saksham/screens/student/Profile.dart';
+import 'package:Saksham/screens/student/StudentAttendance.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/Student.dart';
 import 'ScaleRoute.dart';
 
 // ignore: must_be_immutable

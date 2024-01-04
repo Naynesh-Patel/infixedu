@@ -2,12 +2,12 @@ import 'dart:convert';
 import 'dart:developer';
 
 import 'package:get/get.dart';
-import 'package:infixedu/screens/chat/controller/chat_controller.dart';
-import 'package:infixedu/screens/chat/models/ChatGroupPusher.dart';
-import 'package:infixedu/screens/chat/models/ChatMessage.dart';
-import 'package:infixedu/screens/chat/models/GroupThread.dart';
-import 'package:infixedu/screens/chat/views/Group/ChatGroupLoadMore.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
+import 'package:Saksham/screens/chat/controller/chat_controller.dart';
+import 'package:Saksham/screens/chat/models/ChatGroupPusher.dart';
+import 'package:Saksham/screens/chat/models/ChatMessage.dart';
+import 'package:Saksham/screens/chat/models/GroupThread.dart';
+import 'package:Saksham/screens/chat/views/Group/ChatGroupLoadMore.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
 import 'package:pusher_channels_flutter/pusher_channels_flutter.dart';
 
 import '../models/ChatUser.dart';

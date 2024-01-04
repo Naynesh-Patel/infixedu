@@ -13,20 +13,20 @@ import 'package:file_utils/file_utils.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/utils/model/StudentDetailsModel.dart';
+import 'package:Saksham/utils/model/StudentDetailsModel.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/student/EditProfile.dart';
-import 'package:infixedu/screens/student/studyMaterials/StudyMaterialViewer.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/server/ProfileService.dart';
-import 'package:infixedu/utils/widget/ProfileListRow.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/screens/student/EditProfile.dart';
+import 'package:Saksham/screens/student/studyMaterials/StudyMaterialViewer.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/server/ProfileService.dart';
+import 'package:Saksham/utils/widget/ProfileListRow.dart';
+import 'package:Saksham/utils/widget/ScaleRoute.dart';
 
 // ignore: must_be_immutable
 class DBStudentProfile extends StatefulWidget {
@@ -63,9 +63,9 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
     Tab(
       text: 'Parents'.tr,
     ),
-    Tab(
-      text: 'Transport'.tr,
-    ),
+    // Tab(
+    //   text: 'Transport'.tr,
+    // ),
     Tab(
       text: 'Others'.tr,
     ),
@@ -314,7 +314,7 @@ class _DBStudentProfileState extends State<DBStudentProfile> {
                                         children: [
                                           getProfileList(),
                                           getParentDetails(),
-                                          getTransportList(),
+                                          // getTransportList(),
                                           getOthersList(),
                                           getDocumentsList(),
                                           // getParentDetails(),

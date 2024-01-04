@@ -9,12 +9,12 @@ import 'package:get/get_utils/src/extensions/internacionalization.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/TeacherSubject.dart';
-import 'package:infixedu/utils/widget/ShimmerListWidget.dart';
-import 'package:infixedu/utils/widget/TeacherSubjectRow.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/TeacherSubject.dart';
+import 'package:Saksham/utils/widget/ShimmerListWidget.dart';
+import 'package:Saksham/utils/widget/TeacherSubjectRow.dart';
 
 class MySubjectScreen extends StatefulWidget {
   const MySubjectScreen({Key? key}) : super(key: key);

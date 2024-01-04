@@ -1,5 +1,5 @@
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
+import 'package:Saksham/config/app_config.dart';
 
 class InfixApi {
   static String root = AppConfig.domainName + '/';

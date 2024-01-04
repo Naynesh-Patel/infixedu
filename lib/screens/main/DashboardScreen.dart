@@ -7,23 +7,23 @@ import 'package:flutter/services.dart';
 import 'package:badges/badges.dart' as bz;
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/controller/system_controller.dart';
-import 'package:infixedu/controller/user_controller.dart';
+import 'package:Saksham/controller/system_controller.dart';
+import 'package:Saksham/controller/user_controller.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 // import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:themify_flutter/themify_flutter.dart';
 
 // Project imports:
-import 'package:infixedu/controller/notification_controller.dart';
-import 'package:infixedu/screens/main/NotificationsScreen.dart';
-import 'package:infixedu/screens/main/student/DBStudentFees.dart';
-import 'package:infixedu/screens/main/student/DBStudentProfile.dart';
-import 'package:infixedu/screens/main/student/DBStudentRoutine.dart';
-import 'package:infixedu/screens/main/teacher/DBTeacherAcademic.dart';
-import 'package:infixedu/screens/main/teacher/DBTeacherHW.dart';
-import 'package:infixedu/screens/parent/ChildDashboardScreen.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
+import 'package:Saksham/controller/notification_controller.dart';
+import 'package:Saksham/screens/main/NotificationsScreen.dart';
+import 'package:Saksham/screens/main/student/DBStudentFees.dart';
+import 'package:Saksham/screens/main/student/DBStudentProfile.dart';
+import 'package:Saksham/screens/main/student/DBStudentRoutine.dart';
+import 'package:Saksham/screens/main/teacher/DBTeacherAcademic.dart';
+import 'package:Saksham/screens/main/teacher/DBTeacherHW.dart';
+import 'package:Saksham/screens/parent/ChildDashboardScreen.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/Utils.dart';
 import '../Home.dart';
 import 'teacher/DBTeacherAttendance.dart';
 

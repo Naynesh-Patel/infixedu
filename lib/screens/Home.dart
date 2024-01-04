@@ -16,24 +16,24 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/controller/settings_controller.dart';
-import 'package:infixedu/controller/system_controller.dart';
-import 'package:infixedu/screens/chat/views/ChatPageMain.dart';
+import 'package:Saksham/controller/settings_controller.dart';
+import 'package:Saksham/controller/system_controller.dart';
+import 'package:Saksham/screens/chat/views/ChatPageMain.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:timeago/timeago.dart' as timeago;
 
 // Project imports:
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/screens/student/Profile.dart';
-import 'package:infixedu/utils/CardItem.dart';
-import 'package:infixedu/utils/FunctinsData.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/ReceivedSms.dart';
-import 'package:infixedu/utils/model/UserNotifications.dart';
-import 'package:infixedu/utils/server/About.dart';
-import 'package:infixedu/utils/server/LogoutService.dart';
-import 'package:infixedu/utils/widget/ScaleRoute.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/screens/student/Profile.dart';
+import 'package:Saksham/utils/CardItem.dart';
+import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/ReceivedSms.dart';
+import 'package:Saksham/utils/model/UserNotifications.dart';
+import 'package:Saksham/utils/server/About.dart';
+import 'package:Saksham/utils/server/LogoutService.dart';
+import 'package:Saksham/utils/widget/ScaleRoute.dart';
 import '../main.dart';
 import 'ChangePassword.dart';
 
@@ -303,11 +303,11 @@ class _HomeState extends State<Home> {
             height: 110.h,
             padding: EdgeInsets.only(top: 20.h),
             decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(AppConfig.appToolbarBackground),
-                fit: BoxFit.fill,
-              ),
-              color: Colors.deepPurple,
+              // image: DecorationImage(
+              //   image: AssetImage(AppConfig.appToolbarBackground),
+              //   fit: BoxFit.fill,
+              // ),
+              color: Colors.white,
             ),
             child: Row(
               children: [
@@ -315,34 +315,50 @@ class _HomeState extends State<Home> {
                   child: Container(
                     width: 200.h,
                     padding: const EdgeInsets.symmetric(horizontal: 15),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.start,
                       mainAxisSize: MainAxisSize.max,
                       children: [
-                        const SizedBox(
-                          height: 10,
-                        ),
+                        // const SizedBox(
+                        //   width: 10,
+                        // ),
                         Flexible(
                           child: Image.asset(
                             AppConfig.appLogo,
-                            height: 30,
+                            height: 50,
+
                           ),
                         ),
                         const SizedBox(
-                          height: 10,
+                          width: 10,
                         ),
-                        Text(
-                          "Welcome".tr + " $_fullName",
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context)
-                              .textTheme
-                              .titleMedium
-                              ?.copyWith(color: Colors.white, fontSize: 15),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Text(
+                              "Welcome".tr,
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(color: const Color(0xff261C59), fontSize: 15),
+                            ),
+                            Text(
+                              "$_fullName",
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(color: const Color(0xff261C59), fontSize: 15),
+                            ),
+                          ],
                         ),
                         const SizedBox(
-                          height: 10,
+                          width: 10,
                         ),
                       ],
                     ),
@@ -355,6 +371,7 @@ class _HomeState extends State<Home> {
                   icon: Icon(
                     FontAwesomeIcons.facebookMessenger,
                     size: 25.sp,
+                    color: Color(0xff261C59),
                   ),
                 ),
                 IconButton(
@@ -364,6 +381,7 @@ class _HomeState extends State<Home> {
                   icon: Icon(
                     Icons.exit_to_app,
                     size: 25.sp,
+                    color: Color(0xff261C59),
                   ),
                 ),
               ],
@@ -1111,7 +1129,7 @@ class _HomeState extends State<Home> {
 
 // static Future<void> _showNotification(String title, String body) async {
 //   var androidPlatformChannelSpecifics = AndroidNotificationDetails(
-//       'infixedu', 'infix', 'this channel description',
+//       'Saksham', 'infix', 'this channel description',
 //       importance: Importance.max, priority: Priority.high, ticker: 'ticker');
 //   var iOSPlatformChannelSpecifics = IOSNotificationDetails();
 //   var platformChannelSpecifics = NotificationDetails(
@@ -1119,6 +1137,6 @@ class _HomeState extends State<Home> {
 //       iOS: iOSPlatformChannelSpecifics);
 //   await flutterLocalNotificationsPlugin.show(
 //       0, '$title', '$body', platformChannelSpecifics,
-//       payload: 'infixedu');
+//       payload: 'Saksham');
 // }
 }

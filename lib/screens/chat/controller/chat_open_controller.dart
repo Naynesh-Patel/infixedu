@@ -3,12 +3,12 @@ import 'dart:convert';
 
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/screens/chat/models/ChatMessage.dart';
-import 'package:infixedu/screens/chat/models/ChatMessageOpenModel.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/screens/chat/models/ChatMessage.dart';
+import 'package:Saksham/screens/chat/models/ChatMessageOpenModel.dart';
 import 'package:http/http.dart' as http;
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
+import 'package:Saksham/screens/chat/models/ChatUser.dart';
 
 class ChatOpenController extends GetxController {
   final int userId;

@@ -1,5 +1,5 @@
-import 'package:infixedu/screens/chat/models/ChatMessage.dart';
-import 'package:infixedu/screens/chat/models/ChatUser.dart';
+import 'package:Saksham/screens/chat/models/ChatMessage.dart';
+import 'package:Saksham/screens/chat/models/ChatUser.dart';
 
 class GroupThread {
   GroupThread({

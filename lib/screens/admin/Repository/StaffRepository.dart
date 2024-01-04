@@ -1,8 +1,8 @@
 // Project imports:
-import 'package:infixedu/screens/admin/ApiProvider/StaffApiProvider.dart';
-import 'package:infixedu/utils/model/LeaveAdmin.dart';
-import 'package:infixedu/utils/model/LibraryCategoryMember.dart';
-import 'package:infixedu/utils/model/Staff.dart';
+import 'package:Saksham/screens/admin/ApiProvider/StaffApiProvider.dart';
+import 'package:Saksham/utils/model/LeaveAdmin.dart';
+import 'package:Saksham/utils/model/LibraryCategoryMember.dart';
+import 'package:Saksham/utils/model/Staff.dart';
 
 class StaffRepository {
   final StaffApiProvider _provider = StaffApiProvider();

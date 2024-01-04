@@ -1,6 +1,6 @@
 const Map<String, String> ar = {
   "Welcome to": "مرحبا بك",
-  "InfixEdu": "InfixEdu",
+  "Saksham": "Saksham",
   "Students": "الطلبة",
   "Leave": "الإجازات",
   "Staff": "الموظفين",

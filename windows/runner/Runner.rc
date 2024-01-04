@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.edu.infix" "\0"
-            VALUE "FileDescription", "infixedu" "\0"
+            VALUE "FileDescription", "Saksham" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "infixedu" "\0"
+            VALUE "InternalName", "Saksham" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.edu.infix. All rights reserved." "\0"
-            VALUE "OriginalFilename", "infixedu.exe" "\0"
-            VALUE "ProductName", "infixedu" "\0"
+            VALUE "OriginalFilename", "Saksham.exe" "\0"
+            VALUE "ProductName", "Saksham" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -15,9 +15,9 @@
 	<key>BUNDLE_ID</key>
 	<string>com.edu.infix.infixedu</string>
 	<key>PROJECT_ID</key>
-	<string>infixedu-app</string>
+	<string>Saksham-app</string>
 	<key>STORAGE_BUCKET</key>
-	<string>infixedu-app.appspot.com</string>
+	<string>Saksham-app.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>

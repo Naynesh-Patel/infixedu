@@ -9,11 +9,11 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
 // Project imports:
-import 'package:infixedu/utils/CustomAppBarWidget.dart';
-import 'package:infixedu/utils/Utils.dart';
-import 'package:infixedu/utils/apis/Apis.dart';
-import 'package:infixedu/utils/model/Content.dart';
-import 'package:infixedu/utils/widget/Content_row.dart';
+import 'package:Saksham/utils/CustomAppBarWidget.dart';
+import 'package:Saksham/utils/Utils.dart';
+import 'package:Saksham/utils/apis/Apis.dart';
+import 'package:Saksham/utils/model/Content.dart';
+import 'package:Saksham/utils/widget/Content_row.dart';
 
 class ContentListScreen extends StatefulWidget {
   const ContentListScreen({Key? key}) : super(key: key);

@@ -5,11 +5,11 @@ import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:flutter_portal/flutter_portal.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:infixedu/config/app_config.dart';
-import 'package:infixedu/language/language_selection.dart';
-import 'package:infixedu/language/translation.dart';
-import 'package:infixedu/utils/widget/cc.dart';
-import 'package:infixedu/screens/SplashScreen.dart';
+import 'package:Saksham/config/app_config.dart';
+import 'package:Saksham/language/language_selection.dart';
+import 'package:Saksham/language/translation.dart';
+import 'package:Saksham/utils/widget/cc.dart';
+import 'package:Saksham/screens/SplashScreen.dart';
 import 'package:lottie/lottie.dart';
 
 import '../../controller/InternetController.dart';
