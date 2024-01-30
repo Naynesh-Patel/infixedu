@@ -10,7 +10,6 @@ import 'package:get/get.dart';
 import 'package:Saksham/controller/system_controller.dart';
 import 'package:Saksham/controller/user_controller.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-// import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 import 'package:themify_flutter/themify_flutter.dart';
 
 // Project imports:
@@ -190,7 +189,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       size: 18.sp,
                     ),
                     title: "Home".tr,
-                    activeColorPrimary: Colors.deepPurple.withOpacity(0.9),
+                    activeColorPrimary:  const Color(0xff261C59).withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),
                   PersistentBottomNavBarItem(
@@ -205,11 +204,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
                                 ?.copyWith(color: Colors.white),
                           ),
                           badgeStyle: bz.BadgeStyle(
-                            badgeColor: Colors.deepPurple.withOpacity(0.8),
+                            badgeColor:  const Color(0xff261C59).withOpacity(0.9),
                           ),
                           // badgeAnimation: BadgeAnimationType.fade,
                           // toAnimate: false,
-                          badgeAnimation: bz.BadgeAnimation.fade(
+                          badgeAnimation: const bz.BadgeAnimation.fade(
                             animationDuration: Duration(seconds: 1),
                             loopAnimation: false,
                           ),
@@ -229,11 +228,11 @@ class _DashboardScreenState extends State<DashboardScreen> {
                               ?.copyWith(color: Colors.white),
                         ),
                         // badgeColor: Colors.deepPurple,
-                        badgeStyle: bz.BadgeStyle(
-                          badgeColor: Colors.deepPurple,
+                        badgeStyle:  bz.BadgeStyle(
+                          badgeColor:   const Color(0xff261C59).withOpacity(0.9),
                         ),
                         // animationType: bz.BadgeAnimationType.fade,
-                        badgeAnimation: bz.BadgeAnimation.fade(
+                        badgeAnimation: const bz.BadgeAnimation.fade(
                           // animationDuration: Duration(seconds: 1),
                         ),
                         child: Icon(
@@ -251,18 +250,18 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           // animationType: bz.BadgeAnimationType.fade,
                           // toAnimate: false,
                           badgeStyle: bz.BadgeStyle(
-                            badgeColor: Colors.deepPurple.withOpacity(0.8),
+                            badgeColor:  const Color(0xff261C59).withOpacity(0.9),
                           ),
                           // badgeAnimation: BadgeAnimationType.fade,
                           // toAnimate: false,
-                          badgeAnimation: bz.BadgeAnimation.fade(
+                          badgeAnimation: const bz.BadgeAnimation.fade(
                             animationDuration: Duration(seconds: 1),
                             loopAnimation: false,
                           ),
                           child: Icon(
                             Themify.bell,
                             size: 22.sp,
-                            color: Colors.deepPurple.withOpacity(0.9),
+                            color:  const Color(0xff261C59).withOpacity(0.9),
                           ),
                         );
                       }
@@ -276,19 +275,19 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         ),
                         // badgeColor: Colors.deepPurple,
                         // animationType: bz.BadgeAnimationType.fade,
-                        badgeStyle: bz.BadgeStyle(
-                          badgeColor: Colors.deepPurple,
+                        badgeStyle:  bz.BadgeStyle(
+                          badgeColor:   Color(0xff261C59).withOpacity(0.9),
                         ),
-                        badgeAnimation: bz.BadgeAnimation.fade(),
+                        badgeAnimation: const bz.BadgeAnimation.fade(),
                         child: Icon(
                           Themify.bell,
                           size: 22.sp,
-                          color: Colors.deepPurple.withOpacity(0.9),
+                          color:  const Color(0xff261C59).withOpacity(0.9),
                         ),
                       );
                     }),
                     title: "Notification".tr,
-                    activeColorPrimary: Colors.deepPurple.withOpacity(0.9),
+                    activeColorPrimary: const Color(0xff261C59).withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),
                   PersistentBottomNavBarItem(
@@ -319,7 +318,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             color: Colors.white,
                           ),
                     title: widget.role == "4" ? "Attendance".tr : "Donations".tr,
-                    activeColorPrimary: Colors.deepPurple.withOpacity(0.9),
+                    activeColorPrimary: const Color(0xff261C59).withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),
                   PersistentBottomNavBarItem(
@@ -341,16 +340,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             "assets/images/academics.png",
                             width: 30.w,
                             height: 30.h,
-                            color: Colors.deepPurple.withOpacity(0.9),
+                            color:  const Color(0xff261C59).withOpacity(0.9),
                           )
                         : Image.asset(
                             "assets/images/routine.png",
                             width: 30.w,
                             height: 30.h,
-                            color: Colors.deepPurple.withOpacity(0.9),
+                            color:  const Color(0xff261C59).withOpacity(0.9),
                           ),
                     title: widget.role == "4" ? "Academic".tr : "Routine".tr,
-                    activeColorPrimary: Colors.deepPurple.withOpacity(0.9),
+                    activeColorPrimary:  const Color(0xff261C59).withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),
                   PersistentBottomNavBarItem(
@@ -372,16 +371,16 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             "assets/images/homework.png",
                             width: 25.w,
                             height: 25.h,
-                            color: Colors.deepPurple.withOpacity(0.9),
+                            color:  const Color(0xff261C59).withOpacity(0.9),
                           )
                         : Image.asset(
                             "assets/images/profile.png",
                             width: 25.w,
                             height: 25.h,
-                            color: Colors.deepPurple.withOpacity(0.9),
+                            color: const Color(0xff261C59).withOpacity(0.9),
                           ),
                     title: widget.role == "4" ? "Homework".tr : "Profile".tr,
-                    activeColorPrimary: Colors.deepPurple.withOpacity(0.9),
+                    activeColorPrimary:   const Color(0xff261C59).withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),
                 ],

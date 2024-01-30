@@ -52,7 +52,7 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
                             gradient: const LinearGradient(
                               colors: [
                                 Color(0xff7C32FF),
-                                Color(0xffC738D8),
+                                Color(0xff261C59),
                               ],
                             )),
                         child: Text("Balance: ".tr + '${_controller.wallet.value.currencySymbol??0}' + '${_controller.wallet.value.myBalance??0}',
@@ -79,7 +79,7 @@ class _StudentWalletTransactionsState extends State<StudentWalletTransactions> {
                               gradient: const LinearGradient(
                                 colors: [
                                   Color(0xff7C32FF),
-                                  Color(0xffC738D8),
+                                  Color(0xff261C59),
                                 ],
                               )),
                           child: Text(

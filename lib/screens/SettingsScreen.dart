@@ -73,7 +73,7 @@ class _SettingScreenState extends State<SettingScreen> {
               // }
             },
             leading: CircleAvatar(
-              backgroundColor: Colors.deepPurpleAccent,
+              backgroundColor:const Color(0xff261C59),
               child: Icon(
                 Icons.language,
                 color: Colors.white,
@@ -110,7 +110,7 @@ class _SettingScreenState extends State<SettingScreen> {
               Navigator.of(context).push(ScaleRoute(page: const ChangePassword()));
             },
             leading: CircleAvatar(
-              backgroundColor: Colors.deepPurpleAccent,
+              backgroundColor: const Color(0xff261C59),
               child: Icon(
                 Icons.lock,
                 color: Colors.white,
@@ -124,7 +124,6 @@ class _SettingScreenState extends State<SettingScreen> {
             dense: true,
           ),
           const BottomLine(),
-
           ListTile(
             onTap: () {
               Get.dialog(
@@ -139,7 +138,7 @@ class _SettingScreenState extends State<SettingScreen> {
               );
             },
             leading: CircleAvatar(
-              backgroundColor: Colors.deepPurpleAccent,
+              backgroundColor: const Color(0xff261C59),
               child: Icon(
                 Icons.delete,
                 color: Colors.white,
@@ -153,6 +152,7 @@ class _SettingScreenState extends State<SettingScreen> {
             dense: true,
           ),
           const BottomLine(),
+
 
         ],
       ),

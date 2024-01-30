@@ -23,4 +23,4 @@ class InternetController extends GetxController{
   }
 }
 
-  var internetController             = Get.put(InternetController());
+  var internetController = Get.put(InternetController());

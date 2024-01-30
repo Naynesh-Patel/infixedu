@@ -5,13 +5,11 @@ import 'package:Saksham/controller/user_controller.dart';
 import 'package:Saksham/utils/CustomAppBarWidget.dart';
 import 'package:Saksham/utils/CustomExpansionTileCard.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-
 import 'views/bbb/bbb_virtual_class.dart';
 import 'views/jitsi/jitsi_virtual_class.dart';
 import 'views/zoom/zoom_virtual_class.dart';
 
 class VirtualClassMain extends StatelessWidget {
-
   final SystemController systemController = Get.put(SystemController());
 
   final UserController userController = Get.put(UserController());
@@ -33,7 +31,6 @@ class VirtualClassMain extends StatelessWidget {
             child: ListView(
               padding: const EdgeInsets.symmetric(horizontal: 10),
               children: [
-
                 systemController.systemSettings.value.data!.zoom!
                     ? CustomExpansionTileCard(
                         title: const Text("Zoom"),
@@ -80,7 +77,7 @@ class VirtualClassMain extends StatelessWidget {
                                         ?.copyWith(fontSize: 14),
                                   ),
                                 )
-                              : const SizedBox(),
+                              :  const SizedBox(),
                         ],
                       )
                     : const SizedBox.shrink(),
@@ -117,7 +114,8 @@ class VirtualClassMain extends StatelessWidget {
                                   onTap: () {
                                     PersistentNavBarNavigator.pushNewScreen(
                                       context,
-                                      screen: const BBBVirtualClass(type: "meeting"),
+                                      screen: const BBBVirtualClass(
+                                          type: "meeting"),
                                       withNavBar: false,
                                     );
                                   },
@@ -129,7 +127,7 @@ class VirtualClassMain extends StatelessWidget {
                                         ?.copyWith(fontSize: 14),
                                   ),
                                 )
-                              : const SizedBox(),
+                              :const SizedBox(),
                         ],
                       )
                     : const SizedBox.shrink(),
@@ -166,8 +164,8 @@ class VirtualClassMain extends StatelessWidget {
                                   onTap: () {
                                     PersistentNavBarNavigator.pushNewScreen(
                                       context,
-                                      screen:
-                                          const JitsiVirtualClass(type: "meeting"),
+                                      screen:const JitsiVirtualClass(
+                                          type: "meeting"),
                                       withNavBar: false,
                                     );
                                   },
@@ -183,16 +181,13 @@ class VirtualClassMain extends StatelessWidget {
                         ],
                       )
                     : const SizedBox.shrink(),
-
-
-                if(!systemController.systemSettings.value.data!.zoom! && !systemController.systemSettings.value.data!.bbb! &&  !systemController.systemSettings.value.data!.jitsi!)
-                 const Center(
-                    child: Text(
-                      'Class no available',
-                      textAlign: TextAlign.center,
-                      style: TextStyle(
-                          color: Colors.pinkAccent, fontSize: 24.0),
-                    ),
+                if (!systemController.systemSettings.value.data!.zoom! &&
+                    !systemController.systemSettings.value.data!.bbb! &&
+                    !systemController.systemSettings.value.data!.jitsi!)
+                    const Text(
+                    'Class no available',
+                    textAlign: TextAlign.center,
+                    style: TextStyle(color: Color(0xff261C59), fontSize: 24.0),
                   ),
               ],
             ),

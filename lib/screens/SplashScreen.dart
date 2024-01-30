@@ -3,18 +3,20 @@ import 'dart:async';
 // Flutter imports:
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
 // Project imports:
 import 'package:Saksham/config/app_config.dart';
 import 'package:Saksham/controller/system_controller.dart';
-import 'package:Saksham/screens/Home.dart';
 import 'package:Saksham/screens/Login.dart';
-import 'package:Saksham/utils/FunctinsData.dart';
+import 'package:Saksham/utils/FunctinsData.dart';++++++++++++++++++++++++++++++++++-
+
 import 'package:Saksham/utils/Utils.dart';
+
 // Package imports:
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({Key? key}) : super(key: key);
+  const Splash({K ey? key}) : super(key: key);
 
   @override
   _SplashState createState() => _SplashState();
@@ -35,7 +37,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
 
     Route route;
 
-    Future.delayed(const Duration(seconds: 3), () {
+    Future.delayed(const Duration(seconds: 2), () {
       getBooleanValue('isLogged').then((value) {
         if (value) {
           final SystemController _systemController =
@@ -125,8 +127,7 @@ class _SplashState extends State<Splash> with SingleTickerProviderStateMixin {
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
-              padding:
-                  const EdgeInsets.only(bottom: 80.0, left: 40, right: 40),
+              padding: const EdgeInsets.only(bottom: 80.0, left: 40, right: 40),
               child: Container(
                 alignment: Alignment.bottomCenter,
                 child: const LinearProgressIndicator(

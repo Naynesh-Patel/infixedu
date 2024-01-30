@@ -212,7 +212,7 @@ class _DBStudentRoutineState extends State<DBStudentRoutine>
                                     gradient: const LinearGradient(
                                       colors: [
                                         Color(0xff7C32FF),
-                                        Color(0xffC738D8),
+                                        Color(0xff261C59),
                                       ],
                                     )),
                                 labelColor: Colors.white,

@@ -104,8 +104,9 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                     Expanded(
                                       child: ListView.builder(
                                         shrinkWrap: false,
-                                        itemCount: snapshot
-                                            .data?.userNotifications?.length ?? 0,
+                                        itemCount: snapshot.data
+                                                ?.userNotifications?.length ??
+                                            0,
                                         itemBuilder: (context, index) {
                                           final item = snapshot
                                               .data?.userNotifications?[index];
@@ -115,7 +116,8 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                             child: InkWell(
                                               onTap: () {},
                                               child: Dismissible(
-                                                key: Key(item?.id.toString() ?? ''),
+                                                key: Key(
+                                                    item?.id.toString() ?? ''),
                                                 background: Container(
                                                   decoration: BoxDecoration(
                                                     gradient:
@@ -159,8 +161,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
 
                                                   if (response.statusCode ==
                                                       200) {
-                                                    Map
-                                                        notifications =
+                                                    Map notifications =
                                                         jsonDecode(
                                                                 response.body)
                                                             as Map;
@@ -178,7 +179,8 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                                   setState(() {
                                                     notificationCount =
                                                         getNotificationCount(
-                                                            int.parse(_id ?? ''));
+                                                            int.parse(
+                                                                _id ?? ''));
                                                   });
                                                   ScaffoldMessenger.of(context)
                                                       .showSnackBar(SnackBar(
@@ -221,8 +223,9 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                                                   ),
                                                         ),
                                                         Text(
-                                                          timeago.format(
-                                                              item?.createdAt ?? DateTime(200)),
+                                                          timeago.format(item
+                                                                  ?.createdAt ??
+                                                              DateTime(200)),
                                                           textAlign:
                                                               TextAlign.end,
                                                           style:
@@ -289,7 +292,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                                             ),
                                       ),
                                       style: ElevatedButton.styleFrom(
-                                        backgroundColor: Colors.deepPurple,
+                                        backgroundColor: const Color(0xff261C59),
                                       ),
                                     ),
                                   ],
@@ -631,10 +634,7 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
     var image = 'http://saskolhmg.com/images/studentprofile.png';
 
     var response = await http.post(Uri.parse(InfixApi.login()),
-        body: {
-          'email':email,
-          'password':password
-        },
+        body: {'email': email, 'password': password},
         headers: Utils.setHeader(_token.toString()));
 
     if (response.statusCode == 200) {
@@ -781,12 +781,14 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
             //if you don't set any condition here setState call again and again
             Utils.getStringValue('lang').then((value) {
               if (value == null) {
-                Utils.getTranslatedLanguage('en', widget.title ?? '').then((val) {
+                Utils.getTranslatedLanguage('en', widget.title ?? '')
+                    .then((val) {
                   setState(() => widget.title = val);
                   i++;
                 });
               } else {
-                Utils.getTranslatedLanguage(value, widget.title ?? '').then((val) {
+                Utils.getTranslatedLanguage(value, widget.title ?? '')
+                    .then((val) {
                   setState(() => widget.title = val);
                   i++;
                 });
@@ -832,10 +834,11 @@ class _CustomAppBarWidgetState extends State<CustomAppBarWidget> {
                       padding: const EdgeInsets.only(left: 0.0),
                       child: Text(
                         '${widget.title}'.tr,
-                        style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                              fontSize: 18.sp,
-                              color: Colors.white,
-                            ),
+                        style:
+                            Theme.of(context).textTheme.titleMedium?.copyWith(
+                                  fontSize: 18.sp,
+                                  color: Colors.white,
+                                ),
                       ),
                     ),
                   ),

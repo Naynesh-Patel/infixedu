@@ -225,9 +225,9 @@ class _EditProfileState extends State<EditProfile> {
                                           file: await DIO.MultipartFile.fromFile(
                                               _file?.path ?? ''));
                                     },
-                                    icon: const Icon(
+                                    icon:  const Icon(
                                       Icons.save_as,
-                                      color: Colors.deepPurpleAccent,
+                                      color: Color(0xff261C59),
                                     ),
                                   ),
                                 ],
@@ -280,7 +280,7 @@ class _EditProfileState extends State<EditProfile> {
                                     },
                                     icon: const Icon(
                                       Icons.save_as,
-                                      color: Colors.deepPurpleAccent,
+                                      color: Color(0xff261C59),
                                     ),
                                   ),
                                 ],
@@ -326,7 +326,7 @@ class _EditProfileState extends State<EditProfile> {
                                     },
                                     icon: const Icon(
                                       Icons.save_as,
-                                      color: Colors.deepPurpleAccent,
+                                      color:  Color(0xff261C59),
                                     ),
                                   ),
                                 ],
@@ -391,7 +391,7 @@ class _EditProfileState extends State<EditProfile> {
                                     },
                                     icon: const Icon(
                                       Icons.save_as,
-                                      color: Colors.deepPurpleAccent,
+                                      color:  Color(0xff261C59),
                                     ),
                                   ),
                                 ],
@@ -438,7 +438,7 @@ class _EditProfileState extends State<EditProfile> {
                                     },
                                     icon: const Icon(
                                       Icons.save_as,
-                                      color: Colors.deepPurpleAccent,
+                                      color: Color(0xff261C59),
                                     ),
                                   ),
                                 ],

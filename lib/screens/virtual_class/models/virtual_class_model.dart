@@ -122,8 +122,7 @@ class Meeting {
         maxParticipants: json["max_participants"],
         logoutUrl: json["logout_url"],
         duration: json["duration"],
-        meetingDuration:
-            json["meeting_duration"],
+        meetingDuration: json["meeting_duration"],
         logo: json["logo"],
         status: json["status"],
       );

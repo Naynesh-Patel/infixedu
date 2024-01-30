@@ -4,7 +4,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import 'package:shared_preferences/shared_preferences.dart';
 import 'screens/fees/paymentGateway/khalti/sdk/khalti.dart';
 import 'utils/widget/page.dart';
@@ -38,6 +37,7 @@ void main() async {
   await Khalti.init(
     publicKey: khaltiPublicKey,
     enabledDebugging: true,
+
   );
   runApp(const MyApp());
 }

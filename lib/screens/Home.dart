@@ -8,7 +8,6 @@ import 'package:flutter/material.dart';
 // Package imports:
 import 'package:cached_network_image/cached_network_image.dart';
 
-// import 'package:edge_alert/edge_alert.dart';
 import 'package:edge_alerts/edge_alerts.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
@@ -16,7 +15,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
-import 'package:Saksham/controller/settings_controller.dart';
 import 'package:Saksham/controller/system_controller.dart';
 import 'package:Saksham/screens/chat/views/ChatPageMain.dart';
 import 'package:rxdart/rxdart.dart';
@@ -175,7 +173,7 @@ class _HomeState extends State<Home> {
         android: initializationSettingsAndroid, iOS: initializationSettingsIOS);
     flutterLocalNotificationsPlugin.initialize(
       initializationSettings,
-        onDidReceiveNotificationResponse: (NotificationResponse? payload) async {
+      onDidReceiveNotificationResponse: (NotificationResponse? payload) async {
         if (payload != null) {
           debugPrint('notification payload: $payload');
         }
@@ -302,7 +300,7 @@ class _HomeState extends State<Home> {
           flexibleSpace: Container(
             height: 110.h,
             padding: EdgeInsets.only(top: 20.h),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               // image: DecorationImage(
               //   image: AssetImage(AppConfig.appToolbarBackground),
               //   fit: BoxFit.fill,
@@ -327,7 +325,6 @@ class _HomeState extends State<Home> {
                           child: Image.asset(
                             AppConfig.appLogo,
                             height: 50,
-
                           ),
                         ),
                         const SizedBox(
@@ -344,7 +341,9 @@ class _HomeState extends State<Home> {
                               style: Theme.of(context)
                                   .textTheme
                                   .titleMedium
-                                  ?.copyWith(color: const Color(0xff261C59), fontSize: 15),
+                                  ?.copyWith(
+                                      color: const Color(0xff261C59),
+                                      fontSize: 15),
                             ),
                             Text(
                               "$_fullName",
@@ -353,7 +352,9 @@ class _HomeState extends State<Home> {
                               style: Theme.of(context)
                                   .textTheme
                                   .titleMedium
-                                  ?.copyWith(color: const Color(0xff261C59), fontSize: 15),
+                                  ?.copyWith(
+                                      color: const Color(0xff261C59),
+                                      fontSize: 15),
                             ),
                           ],
                         ),
@@ -366,12 +367,12 @@ class _HomeState extends State<Home> {
                 ),
                 IconButton(
                   onPressed: () {
-                    Get.to(() => ChatPageMain());
+                    Get.to(() => const ChatPageMain());
                   },
                   icon: Icon(
                     FontAwesomeIcons.facebookMessenger,
                     size: 25.sp,
-                    color: Color(0xff261C59),
+                    color: const Color(0xff261C59),
                   ),
                 ),
                 IconButton(
@@ -381,7 +382,7 @@ class _HomeState extends State<Home> {
                   icon: Icon(
                     Icons.exit_to_app,
                     size: 25.sp,
-                    color: Color(0xff261C59),
+                    color: const Color(0xff261C59),
                   ),
                 ),
               ],
@@ -1046,10 +1047,8 @@ class _HomeState extends State<Home> {
   Future<String> getImageUrl(String email, String password, String rule) async {
     var image = 'http://saskolhmg.com/images/studentprofile.png';
 
-    var response = await http.post(Uri.parse(InfixApi.login()),body: {
-      'email':email,
-      'password':password
-    });
+    var response = await http.post(Uri.parse(InfixApi.login()),
+        body: {'email': email, 'password': password});
 
     if (response.statusCode == 200) {
       Map user = jsonDecode(response.body) as Map;

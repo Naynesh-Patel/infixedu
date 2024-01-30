@@ -72,13 +72,11 @@ import 'package:Saksham/screens/teacher/leave/LeaveScreen.dart';
 import 'package:Saksham/screens/wallet/student/views/StudentWalletTransactions.dart';
 import 'package:Saksham/utils/widget/ScaleRoute.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
 // Project imports:
 
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
 
-import '../controller/system_controller.dart';
 import '../screens/Home.dart';
 import '../screens/admin/dormitoryAndRoom/AdminAddRoom.dart';
 import '../screens/admin/library/AdminLibraryScreen.dart';
@@ -843,7 +841,7 @@ class AppFunction {
         break;
       case 'Homework':
         Navigator.push(context,
-            ScaleRoute(page: HomeworkHomeScreen(homework, homeworkIcons)));
+            ScaleRoute(page: HomeworkHomeScreen(homework, homeworkIcons,)));
         break;
       case 'Content':
         Navigator.push(context,

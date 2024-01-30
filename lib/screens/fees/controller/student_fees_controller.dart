@@ -81,8 +81,8 @@ class StudentFeesController extends GetxController {
     } else {
       if (selectedPaymentMethod.value == "Cheque") {
         final paymentData = dio.FormData.fromMap({
-          "wallet_balance":
-              addPaymentModel.value.invoiceInfo?.studentInfo?.user?.walletBalance,
+          "wallet_balance": addPaymentModel
+              .value.invoiceInfo?.studentInfo?.user?.walletBalance,
           "add_wallet": addWalletList.reduce((a, b) => a + b),
           "payment_method": selectedPaymentMethod.value,
           "payment_note": paymentNoteController.text,
@@ -100,8 +100,8 @@ class StudentFeesController extends GetxController {
         await processPayment(paymentData);
       } else if (selectedPaymentMethod.value == "Bank") {
         final paymentData = dio.FormData.fromMap({
-          "wallet_balance":
-              addPaymentModel.value.invoiceInfo?.studentInfo?.user?.walletBalance,
+          "wallet_balance": addPaymentModel
+              .value.invoiceInfo?.studentInfo?.user?.walletBalance,
           "add_wallet": addWalletList.reduce((a, b) => a + b),
           "payment_method": selectedPaymentMethod.value,
           "bank": "${selectedBank.value.id}",
@@ -120,8 +120,8 @@ class StudentFeesController extends GetxController {
         await processPayment(paymentData);
       } else if (selectedPaymentMethod.value == "Wallet") {
         final paymentData = dio.FormData.fromMap({
-          "wallet_balance":
-              addPaymentModel.value.invoiceInfo?.studentInfo?.user?.walletBalance,
+          "wallet_balance": addPaymentModel
+              .value.invoiceInfo?.studentInfo?.user?.walletBalance,
           "add_wallet": addWalletList.reduce((a, b) => a + b),
           "payment_method": selectedPaymentMethod.value,
           "invoice_id": addPaymentModel.value.invoiceInfo?.id,
@@ -138,8 +138,8 @@ class StudentFeesController extends GetxController {
         await processPayment(paymentData);
       } else {
         final paymentData = dio.FormData.fromMap({
-          "wallet_balance":
-              addPaymentModel.value.invoiceInfo?.studentInfo?.user?.walletBalance,
+          "wallet_balance": addPaymentModel
+              .value.invoiceInfo?.studentInfo?.user?.walletBalance,
           "add_wallet": addWalletList.reduce((a, b) => a + b),
           "payment_method": selectedPaymentMethod.value,
           "invoice_id": addPaymentModel.value.invoiceInfo?.id,
@@ -193,16 +193,18 @@ class StudentFeesController extends GetxController {
                           data['transcationId'].toString());
                     },
                   ));
-            }
-            else if (selectedPaymentMethod.value == "Stripe") {
+            } else if (selectedPaymentMethod.value == "Stripe") {
               Get.to(() => StripePaymentScreen(
                     id: addPaymentModel.value.invoiceInfo?.studentInfo?.user?.id
-                        .toString() ?? '',
+                            .toString() ??
+                        '',
                     paidBy: addPaymentModel
-                        .value.invoiceInfo?.studentInfo?.user?.id
-                        .toString() ?? '',
+                            .value.invoiceInfo?.studentInfo?.user?.id
+                            .toString() ??
+                        '',
                     email: addPaymentModel
-                        .value.invoiceInfo?.studentInfo?.user?.email ?? '',
+                            .value.invoiceInfo?.studentInfo?.user?.email ??
+                        '',
                     method: 'Stripe Payment',
                     amount:
                         double.parse("${data['amount']}").toStringAsFixed(2),
@@ -211,8 +213,7 @@ class StudentFeesController extends GetxController {
                           data['transcationId'].toString());
                     },
                   ));
-            }
-            else if (selectedPaymentMethod.value == "Paystack") {
+            } else if (selectedPaymentMethod.value == "Paystack") {
               final finalAmount =
                   (double.parse("${data['amount']}") * 100).toInt();
               log(finalAmount.toString());
@@ -220,9 +221,9 @@ class StudentFeesController extends GetxController {
                 ..amount = finalAmount
                 ..currency = 'ZAR'
                 ..reference = data['transcationId'].toString()
-                ..email =
-                    addPaymentModel.value.invoiceInfo?.studentInfo?.user?.email ??
-                        "";
+                ..email = addPaymentModel
+                        .value.invoiceInfo?.studentInfo?.user?.email ??
+                    "";
               log(charge.toString());
               CheckoutResponse response = await plugin.checkout(
                 context!,
@@ -236,14 +237,12 @@ class StudentFeesController extends GetxController {
                 isPaymentProcessing.value = false;
                 CustomSnackBar().snackBarError(response.message.toString());
               }
-            }
-            else if (selectedPaymentMethod.value == "Khalti") {
+            } else if (selectedPaymentMethod.value == "Khalti") {
               Get.to(() => KhaltiInvoicePayment(
                     method: "${data['description']}",
                     amount: "${data['amount']}",
                   ));
-            }
-            else if (selectedPaymentMethod.value == "RazorPay") {
+            } else if (selectedPaymentMethod.value == "RazorPay") {
               await callRazorPayService(data['amount'], data['transcationId']);
             }
 
@@ -267,7 +266,6 @@ class StudentFeesController extends GetxController {
             }
           });
           CustomSnackBar().snackBarError(combinedMessage);
-
         }
       });
     } finally {}
@@ -306,8 +304,10 @@ class StudentFeesController extends GetxController {
     await RazorpayServices().openRazorpay(
       razorpayKey: razorPayApiKey,
       contactNumber:
-          addPaymentModel.value.invoiceInfo?.studentInfo?.user?.phoneNumber ?? "",
-      emailId: addPaymentModel.value.invoiceInfo?.studentInfo?.user?.email ?? "",
+          addPaymentModel.value.invoiceInfo?.studentInfo?.user?.phoneNumber ??
+              "",
+      emailId:
+          addPaymentModel.value.invoiceInfo?.studentInfo?.user?.email ?? "",
       amount: double.parse(amount.toString()),
       userName: "",
       successListener: (PaymentResponse paymentResponse) async {
@@ -337,7 +337,8 @@ class StudentFeesController extends GetxController {
         addPaymentModel.value = StudentAddPaymentModel.fromJson(jsonData);
 
         if (addPaymentModel.value.bankAccounts!.isNotEmpty) {
-          selectedBank.value = addPaymentModel.value.bankAccounts?.first ?? BankAccount();
+          selectedBank.value =
+              addPaymentModel.value.bankAccounts?.first ?? BankAccount();
         }
 
         addPaymentModel.value.paymentMethods?.insert(
