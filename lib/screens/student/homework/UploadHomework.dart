@@ -102,7 +102,7 @@ class _UploadHomeworkState extends State<UploadHomework> {
                                     padding: const EdgeInsets.only(left: 8.0),
                                     child: files == null
                                         ? Text(
-                                            'Select Homework file',
+                                            'Select Assignment file',
                                             style: Theme.of(context)
                                                 .textTheme
                                                 .headlineMedium
@@ -199,7 +199,7 @@ class _UploadHomeworkState extends State<UploadHomework> {
                               });
                               var data = json.decode(response.toString());
                               if (data['success'] == true) {
-                                Utils.showToast('Homework Upload successfully');
+                                Utils.showToast('Assignment Upload successfully');
                                 Navigator.of(context).pop();
                                 Navigator.of(context).pop();
                               } else {

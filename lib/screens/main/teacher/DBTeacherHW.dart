@@ -65,7 +65,7 @@ class _HomeState extends State<DBTeacherHW> {
                   child: Padding(
                     padding: const EdgeInsets.only(left: 0.0),
                     child: Text(
-                      "Homework".tr,
+                      "Assignment".tr,
                       style: Theme.of(context)
                           .textTheme
                           .titleMedium

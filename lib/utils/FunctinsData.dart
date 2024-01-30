@@ -138,7 +138,7 @@ class AppFunction {
     'Content',
     'Notice',
     // 'Library',
-    'Homework',
+    'Assignment',
     'About',
     'Class',
     'Settings',
@@ -840,7 +840,7 @@ class AppFunction {
             ScaleRoute(
                 page: AttendanceHomeScreen(attendance, attendanceIcons)));
         break;
-      case 'Homework':
+      case 'Assignment':
         Navigator.push(context,
             ScaleRoute(page: HomeworkHomeScreen(homework, homeworkIcons,)));
         break;

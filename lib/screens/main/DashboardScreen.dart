@@ -379,7 +379,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             height: 25.h,
                             color: const Color(0xff261C59).withOpacity(0.9),
                           ),
-                    title: widget.role == "4" ? "Homework".tr : "Profile".tr,
+                    title: widget.role == "4" ? "Assignment".tr : "Profile".tr,
                     activeColorPrimary:   const Color(0xff261C59).withOpacity(0.9),
                     inactiveColorPrimary: Colors.grey.withOpacity(0.9),
                   ),

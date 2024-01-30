@@ -199,7 +199,7 @@ class _EvaluateScreenState extends State<EvaluateScreen> {
                   children: [
                     Padding(
                       padding: const EdgeInsets.only(left: 2.0),
-                      child: Text('Homework Status',
+                      child: Text('Assignment Status',
                           style: Theme.of(context).textTheme.headlineMedium),
                     ),
                     const SizedBox(
@@ -387,7 +387,7 @@ class _EvaluateScreenState extends State<EvaluateScreen> {
       );
       var jsonString = jsonDecode(response.body);
       if (jsonString['message'] == 'Homework Evaluation successfully') {
-        Utils.showToast('Homework Evaluate done for ${widget.studentName}');
+        Utils.showToast('Assignment Evaluate done for ${widget.studentName}');
         setState(() {
           isResponse = false;
         });

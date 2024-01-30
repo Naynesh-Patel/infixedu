@@ -128,7 +128,7 @@ class _AddHomeworkScrrenState extends State<AddHomeworkScrren> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBarWidget(
-        title: 'Add Homework',
+        title: 'Add Assignment',
       ),
       backgroundColor: Colors.white,
       body: SingleChildScrollView(

@@ -39,7 +39,7 @@ class _HomeState extends State<HomeworkHomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBarWidget(title: 'Homework'),
+      appBar: CustomAppBarWidget(title: 'Assignment'),
       backgroundColor: Colors.white,
       body: Container(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
