@@ -65,11 +65,11 @@ android {
     rootProject.ext.ffmpegKitPackage = "video"
 
     defaultConfig {
-        applicationId "com.edu.infix.infixedu"
+        applicationId "com.saksham"
         minSdkVersion 21
         targetSdkVersion 30
-        versionCode 51
-        versionName '2.9.0'
+        versionCode 1
+        versionName '1.0.0'
         multiDexEnabled true
 
 //        ndk {
