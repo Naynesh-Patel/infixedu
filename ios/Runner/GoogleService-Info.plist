@@ -2,22 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>636666845268-p67akk2njtiogj5d7faa35uph31vgrng.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.636666845268-p67akk2njtiogj5d7faa35uph31vgrng</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBVBfIv30Z17q2-vmuMa2Fk8UnFROZCFw8</string>
+	<string>AIzaSyDeQnHdm8Os_vtGUx8axb4wRoaG-RdTjoE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>636666845268</string>
+	<string>239992129167</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.saksham</string>
 	<key>PROJECT_ID</key>
-	<string>Saksham-app</string>
+	<string>jairaj-shop-retailers</string>
 	<key>STORAGE_BUCKET</key>
-	<string>Saksham-app.appspot.com</string>
+	<string>jairaj-shop-retailers.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:636666845268:ios:c90b201d960b755cd3b5c1</string>
+	<string>1:239992129167:ios:5f65f5ac8c90b71bfd12fa</string>
 </dict>
 </plist>
