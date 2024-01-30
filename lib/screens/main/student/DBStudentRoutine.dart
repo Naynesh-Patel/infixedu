@@ -448,7 +448,7 @@ class _DBStudentRoutineState extends State<DBStudentRoutine>
                                                         CrossAxisAlignment
                                                             .start,
                                                     children: [
-                                                      Text('Teacher'.tr + ":",
+                                                      Text('Instructor'.tr + ":",
                                                           style: Theme.of(
                                                                   context)
                                                               .textTheme

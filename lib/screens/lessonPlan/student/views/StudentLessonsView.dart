@@ -367,7 +367,7 @@ class _StudentLessonsViewState extends State<StudentLessonsView> {
                                                           )),
                                                 ),
                                                 Expanded(
-                                                  child: Text('Teacher'.tr,
+                                                  child: Text('Instructor'.tr,
                                                       style: Theme.of(context)
                                                           .textTheme
                                                           .headlineMedium

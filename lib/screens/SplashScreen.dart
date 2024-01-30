@@ -8,7 +8,7 @@ import 'package:get/get.dart';
 import 'package:Saksham/config/app_config.dart';
 import 'package:Saksham/controller/system_controller.dart';
 import 'package:Saksham/screens/Login.dart';
-import 'package:Saksham/utils/FunctinsData.dart';++++++++++++++++++++++++++++++++++-
+import 'package:Saksham/utils/FunctinsData.dart';
 
 import 'package:Saksham/utils/Utils.dart';
 
@@ -16,7 +16,7 @@ import 'package:Saksham/utils/Utils.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class Splash extends StatefulWidget {
-  const Splash({K ey? key}) : super(key: key);
+  const Splash({Key? key}) : super(key: key);
 
   @override
   _SplashState createState() => _SplashState();

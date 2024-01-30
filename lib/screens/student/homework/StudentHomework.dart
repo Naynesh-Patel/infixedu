@@ -64,7 +64,7 @@ class _StudentHomeworkState extends State<StudentHomework> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBarWidget(title: 'Homeworks'),
+      appBar: CustomAppBarWidget(title: 'Assignment'),
       backgroundColor: Colors.white,
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),

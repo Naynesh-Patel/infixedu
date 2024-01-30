@@ -91,7 +91,7 @@ import 'model/SystemSettings.dart';
 
 class AppFunction {
   static var students = [
-    'Homework',
+    'Assignment',
     'Study Materials',
     'Timeline',
     'Attendance',
@@ -102,7 +102,8 @@ class AppFunction {
     'Leave',
     'Notice',
     'Subjects',
-    'Trainer',
+    'Instructor',
+    // 'Trainer',
     // 'Library',
     // 'Transport',
     // 'Dormitory',
@@ -469,7 +470,7 @@ class AppFunction {
       case 'Routine':
         Navigator.push(context, ScaleRoute(page: Routine(id: id)));
         break;
-      case 'Homework':
+      case 'Assignment':
         Navigator.push(context, ScaleRoute(page: StudentHomework(id: id)));
         break;
       case 'Study Materials':
@@ -503,7 +504,7 @@ class AppFunction {
           ),
         );
         break;
-      case 'Trainer':
+      case 'Instructor':
         Navigator.push(
           context,
           ScaleRoute(

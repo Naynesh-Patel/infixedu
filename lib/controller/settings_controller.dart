@@ -38,7 +38,7 @@ class SettingsController extends GetxController {
     if (response.statusCode == 200) {
       Utils.showToast('User Deleted');
       Utils.clearAllValue();
-      Get.offAll(const Splash());
+      Get.offAll( Splash());
       debugPrint('response ${await response.stream.bytesToString()}');
     } else {
       Utils.showToast('${response.reasonPhrase}');

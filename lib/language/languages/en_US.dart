@@ -12,7 +12,7 @@ const Map<String, String> en_US = {
   "Transport": "Transport",
   "Settings": "Settings",
   "Super admin": "Super admin",
-  "Teacher": "Teacher",
+  "Instructor": "Instructor",
   "Admin": "Admin",
   "Accountant": "Accountant",
   "Receptionist": "Receptionist",

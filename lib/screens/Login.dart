@@ -126,7 +126,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                         Radius.circular(0.0),
                                       ),
                                     )),
-                                child: Text("Teacher",
+                                child: Text("Instructor",
                                     style: Theme.of(context)
                                         .textTheme
                                         .headlineMedium
